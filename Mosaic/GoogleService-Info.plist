@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+    SETUP REQUIRED — replace this file before building:
+    1. Go to console.firebase.google.com
+    2. Create a project named "Mosaic"
+    3. Add an iOS app (bundle ID: com.yourname.mosaic)
+    4. Enable: Authentication → Email/Password, Firestore, Storage
+    5. Download the real GoogleService-Info.plist and replace this file
+    6. Add Firestore security rules (see README.md)
+    -->
+    <key>BUNDLE_ID</key>
+    <string>com.yourname.mosaic</string>
+    <key>PROJECT_ID</key>
+    <string>REPLACE_WITH_YOUR_PROJECT_ID</string>
+    <key>STORAGE_BUCKET</key>
+    <string>REPLACE_WITH_YOUR_STORAGE_BUCKET</string>
+    <key>GCM_SENDER_ID</key>
+    <string>REPLACE_WITH_YOUR_SENDER_ID</string>
+    <key>GOOGLE_APP_ID</key>
+    <string>REPLACE_WITH_YOUR_APP_ID</string>
+    <key>API_KEY</key>
+    <string>REPLACE_WITH_YOUR_API_KEY</string>
+    <key>IS_ADS_ENABLED</key>
+    <false/>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false/>
+    <key>IS_GCM_ENABLED</key>
+    <true/>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true/>
+</dict>
+</plist>
